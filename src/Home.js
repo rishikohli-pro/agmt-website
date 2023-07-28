@@ -1,8 +1,10 @@
-import logo from "./logo.svg";
 import "./App.css";
-import { Routes, Route } from "react-router-dom";
+
 import Navbar from "./Components/Navbar/Navbar";
 import MemberCard from "./Components/MemberCard/MemberCard";
+import ActiveCard from "./Components/ActiveCard/ActiveCard";
+import jsonData from "./Assets/exec.json";
+import dataMember from "./Assets/member.json";
 
 function Home() {
   return (
@@ -14,9 +16,14 @@ function Home() {
       <div className="members">
         <h1>Our Members</h1>
         <div className="team-grid">
-          <MemberCard />
-          <MemberCard />
-          <MemberCard />
+          {jsonData.map((member) => (
+            <MemberCard name={member.NAME} position={member.DESIGNATION} />
+          ))}
+        </div>
+        <div className="member-grid">
+          {dataMember.map((member) => (
+            <ActiveCard name={member.NAME} position={member.DESIGNATION} />
+          ))}
         </div>
       </div>
       <h1 className="ourAim">Our Aim</h1>

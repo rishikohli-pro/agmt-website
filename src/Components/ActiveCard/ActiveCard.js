@@ -1,14 +1,14 @@
 import React from "react";
-import "./MemberCard.css";
+import "./ActiveCard.css";
 import jsonData from "../../Assets/exec.json";
 
-function MemberCard(props) {
+function ActiveCard(props) {
   const name = props.name;
   const position = props.position;
   return (
-    <div className="member">
-      <div className="member-image">
-        <div className="member-name">
+    <div className="meember">
+      <div className="meember-image">
+        <div className="meember-name">
           <h2>{name}</h2>
           <h3>{position}</h3>
         </div>
@@ -17,4 +17,4 @@ function MemberCard(props) {
   );
 }
 
-export default MemberCard;
+export default ActiveCard;

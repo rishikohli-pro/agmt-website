@@ -27,8 +27,16 @@
 .team-grid {
   margin-top: 10vh;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10vw;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 3vw;
+  padding: 20px;
+}
+
+.member-grid {
+  margin-top: 10vh;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 2vw;
   padding: 20px;
 }
 

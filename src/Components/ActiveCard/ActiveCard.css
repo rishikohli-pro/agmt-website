@@ -1,0 +1,12 @@
+.meember-image {
+  height: 90%;
+  object-fit: cover;
+
+   transition: all 0.3s ease-in-out;
+
+  border-radius: 5px;
+}
+
+.meember {
+  padding: 10px;
+}
