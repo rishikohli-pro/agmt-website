@@ -2,11 +2,20 @@
   height: 90%;
   object-fit: cover;
 
-   transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 
   border-radius: 5px;
 }
 
 .meember {
-  padding: 10px;
+  border: 2px solid #000;
+}
+
+.name {
+  font-size: 18px;
+}
+
+.position {
+  font-size: 15px;
+  font-weight: 500;
 }

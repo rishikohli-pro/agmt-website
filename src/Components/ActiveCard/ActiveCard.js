@@ -9,8 +9,8 @@ function ActiveCard(props) {
     <div className="meember">
       <div className="meember-image">
         <div className="meember-name">
-          <h2>{name}</h2>
-          <h3>{position}</h3>
+          <h2 className="name">{name}</h2>
+          <h3 className="position">{position}</h3>
         </div>
       </div>
     </div>

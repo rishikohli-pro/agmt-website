@@ -33,10 +33,10 @@
 }
 
 .member-grid {
-  margin-top: 10vh;
+  margin-top: 2vh;
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  grid-gap: 2vw;
+
   padding: 20px;
 }
 
