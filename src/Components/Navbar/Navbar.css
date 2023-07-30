@@ -42,3 +42,16 @@
   border-radius: 5px;
   transition: all 0.3s ease-in-out;
 }
+
+@media (max-width: 768px) {
+  .navbar {
+    width: 100%;
+  }
+  .navbar-logo {
+    margin-left: 36vw;
+  }
+
+  .link {
+    display: none;
+  }
+}

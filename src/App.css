@@ -132,11 +132,13 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 768px) {
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
-  to {
-    transform: rotate(360deg);
+
+  .member-grid {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0px;
   }
 }

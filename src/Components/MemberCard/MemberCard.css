@@ -13,3 +13,9 @@
 .member {
   padding: 10px;
 }
+
+@media (max-width: 768px) {
+  .member-image {
+    width: 40vw;
+  }
+}
