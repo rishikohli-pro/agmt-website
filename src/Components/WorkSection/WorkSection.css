@@ -1,0 +1,42 @@
+.para {
+  font-size: 1.2rem;
+  font-family: "KrutiDev";
+  text-align: justify;
+}
+
+.wd {
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.wdText {
+  padding: 80px;
+}
+
+.wdImage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 4vw;
+}
+
+.wd-image {
+  border: 2px solid #000;
+  max-width: 30vw;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .wdImage {
+    flex-direction: column;
+  }
+  .wd-image {
+    max-width: 80vw;
+  }
+  .wdText {
+    padding: 20px;
+  }
+}
