@@ -5,7 +5,7 @@
 
 .App {
   text-align: center;
-  background-image: none;
+  background-image: url("/src/Assets/bg.jpg");
 }
 
 .App-logo {
@@ -14,8 +14,6 @@
 }
 
 .banner {
-  max-width: 100%;
-
   height: 80vh;
   margin-top: 10vh;
   display: flex;
@@ -24,7 +22,7 @@
 }
 
 .banner-image {
-  max-width: 100%;
+  max-width: 100vw;
   height: 100%;
 }
 
@@ -47,6 +45,10 @@
   font-size: 1.2rem;
   font-family: "KrutiDev";
   text-align: justify;
+  background-color: aliceblue;
+  border-radius: 20px;
+  border: 2px solid black;
+  padding: 20px;
 }
 
 .para1 {
@@ -106,6 +108,21 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  background-color: aliceblue;
+  border-radius: 20px;
+  border: 2px solid black;
+  padding: 20px;
+}
+
+.FirstHeading {
+  font-size: 2.5rem;
+  font-family: "KrutiDev";
+  text-align: center;
+  background-color: aliceblue;
+  border-radius: 20px;
+  border: 2px solid black;
+  padding: 20px;
+  margin-top: 10vh;
 }
 
 .workdone {

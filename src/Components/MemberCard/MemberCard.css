@@ -12,6 +12,7 @@
 
 .member {
   padding: 10px;
+  background-color: #fff;
 }
 
 @media (max-width: 768px) {

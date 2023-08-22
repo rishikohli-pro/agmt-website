@@ -11,22 +11,36 @@ function Navbar() {
         <img className="navbar-logo" src={Logo} alt="Logo" />
       </div>
       <div className="right">
-        <Link className="link" to="/Navbar" activeClass="active" smooth={true}>
+        <Link
+          className="link"
+          to="home"
+          activeClass="active"
+          smooth={true}
+          spy={true}
+          offset={-70}
+          duration={500}
+        >
           Home
         </Link>
         <Link
           className="link"
-          to="/WorkSection"
+          to="WorkSection"
           activeClass="active"
           smooth={true}
+          spy={true}
+          offset={-150}
+          duration={500}
         >
           Our Work
         </Link>
         <Link
           className="link"
-          to="/MemberCard"
+          to="MemberCard"
           activeClass="active"
           smooth={true}
+          spy={true}
+          offset={-100}
+          duration={500}
         >
           Our Members
         </Link>
